@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	
+}
+.body{
+	 background-color:  #fdfdfd;
+}
+
+.bg{
+       width: 100%;
+	   height: 100vh;
+	   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(bg.jpg);
+	   background-size: cover;
+	   background-position: center;
+	   
+}
+.nav{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width: 150px;
+	cursor: pointer;
+	
+}
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: #f2f2f2;
+	text-transform: uppercase;
+}
+.home{
+	text-align: center;
+	color: #f2f2f2;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;	
+}
+
+.home h1{
+	 font-size: 60px;
+	
+}
+.home p{
+	margin: 10px 0 40px;
+	font-size: 18px;
+	color: #f2f2f2;
+	
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+}
+.about img{
+    max-width: 60%;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.about-text h2{
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
